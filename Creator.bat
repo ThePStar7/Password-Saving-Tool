@@ -3,7 +3,7 @@ title Creator
 echo Type any Phrase
 set /p phrase=
 (
-set /p phrase=
+echo %phrase%
 )<new.txt
 certutil -encodehex new.txt enc_new.txt
 certutil -encode enc_new.txt enc64_new.txt
