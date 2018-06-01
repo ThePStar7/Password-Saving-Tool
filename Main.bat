@@ -1,8 +1,8 @@
 @echo off
 setlocal enableextensions enabledelayedexpansion
 title Password Saving Tool
-if exist data.dll goto login
-if not exist data.dll goto register
+if exist appdata.dll goto login
+if not exist appdata.dll goto register
 
 :login
 cls
